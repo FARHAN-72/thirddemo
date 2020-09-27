@@ -1,0 +1,35 @@
+paste --> shift+insert
+
+
+myfile.txt
+tensorflow/
+fazal.txt
+*.docx
+/world/
+static/world
+
+## Command of Git
+--> git status
+--> git init
+--> git add --a / git add .
+--> git commit -m "Written something you want"
+--> rm -rf .git
+--> git diff { compare the working & staging area}
+--> git diff --staged {compare the old commit to the present commit}
+--> git commit -a -m "Written something you want"
+              OR
+    git commit . -m "Written something you want"
+--> git clone "link submit"{paste--> shift + insert}
+--> git rm "file name"
+--> git mv file.txt file_renamed.txt
+--> git rm --cached myfile.txt (now it cant track after we modified but it should be under in .gitignore file)
+--> git log {"q" to exit}
+--> git log -p{we can add & remove line} 
+--> git log -p -3{ or any number print only that lines}
+--> git log --stat {detail in shortq}
+--> git log --pretty=oneline
+--> git log --pretty=short
+--> git log --pretty=full
+--> git log --since=3.months {or weeks or days}
+--> git log --pretty=format:"%h -- %an"{%h is a commit which see in git log documentation(pretty format) & %an is for auther name similary %ae for author email and so on}
+--> git log -p -1 {to use change message than go authour in tensorflow folder than chnage some think than "git add -a" then "git commit --amend" change message}
